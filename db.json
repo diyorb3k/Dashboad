@@ -8,38 +8,6 @@
   ],
   "students": [
     {
-      "id": "1",
-      "firstName": "qdwefdas",
-      "lastName": "Bekmurodov",
-      "group": "dwefvwdefr",
-      "username": "wedwdw",
-      "password": "dwdwdwwddw"
-    },
-    {
-      "id": "2",
-      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
-      "lastName": "Bekmurodov",
-      "group": "n58",
-      "username": "javohir",
-      "password": "bob_brown42"
-    },
-    {
-      "id": "3",
-      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
-      "lastName": "Diyorbek",
-      "group": "zdsfdc",
-      "username": "javohir",
-      "password": "bob_brown42"
-    },
-    {
-      "id": "4",
-      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
-      "lastName": "Bekmurodov",
-      "group": "zdsfdc",
-      "username": "javohir",
-      "password": "bob_brown42"
-    },
-    {
       "id": "6bef",
       "firstName": "diyor456",
       "lastName": "Bekmurodov",
@@ -56,20 +24,52 @@
       "password": "n58"
     },
     {
-      "id": "c7a5",
-      "firstName": "N58",
-      "lastName": "@diyorbek_19_03",
-      "group": "diyor456",
-      "username": "Bekmurodov",
-      "password": "n58"
+      "id": "2ef7",
+      "firstName": "Bekmurodov",
+      "lastName": "N58",
+      "group": "@diyorbek_19_03",
+      "username": "diyor456",
+      "password": "Bekmurodov"
     },
     {
-      "id": "06f9",
-      "firstName": "intro forim",
-      "lastName": "uyga ishi8",
-      "group": "1323",
-      "username": "Recomints",
-      "password": "dashboard-site2"
+      "id": "7dec",
+      "firstName": "n58",
+      "lastName": "intro forim",
+      "group": "uyga ishi8",
+      "username": "1323",
+      "password": "Recomints"
+    },
+    {
+      "id": "f38b",
+      "firstName": "dashboard-site2",
+      "lastName": "wqefrwefw",
+      "group": "fsdgfdfgdf",
+      "username": "dfgdfhgf",
+      "password": "fdfghfhf"
+    },
+    {
+      "id": "6a35",
+      "firstName": "xvdxfgf",
+      "lastName": "vfgbgffb",
+      "group": "cvbcfgbfgb",
+      "username": "cvbcvbnv",
+      "password": "cbcvbnvnv"
+    },
+    {
+      "id": "7da2",
+      "firstName": "cxvdvdvf",
+      "lastName": "sdfgdfg",
+      "group": "gghfghf",
+      "username": "bfbgfgbf",
+      "password": "bfghfcghd"
+    },
+    {
+      "id": "2458",
+      "firstName": "kljdfhewrkf",
+      "lastName": "jgeghrgt",
+      "group": "fofrejtighg",
+      "username": "whrewhe",
+      "password": "jfergthe4th"
     }
   ],
   "teachers": [

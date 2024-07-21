@@ -17,11 +17,15 @@ export const router = createBrowserRouter([
     path: "/",
     element: (
       <DashboardLayout>
-        <SignIn />
+        <Data />
       </DashboardLayout>
     ),
   },
- 
+  {
+    path: "/sign-in",
+    element: <SignIn />,
+  },
+
   {
     path: "about",
     element: (
@@ -43,22 +47,8 @@ export const router = createBrowserRouter([
     path: "Profile",
     element: (
       <DashboardLayout>
-          <SignIn />
+        <SignIn />
       </DashboardLayout>
     ),
   },
-
-  {
-    path: "/dashboard",
-    element: (
-      <DashboardLayout>
-        <Data />
-        </DashboardLayout>
-    ),
-  },
-
-
-
-
-
 ]);

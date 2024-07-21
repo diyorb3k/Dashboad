@@ -13,14 +13,11 @@ import { useLocation } from "react-router-dom";
 const SignIn = () => {
   let { pathname } = useLocation();
 
-  if (pathname.includes("/dashboard")) {
-    return <></>;
-  }
   const [credentials, setCredentials] = useState({
     username: "20880",
     password: "1533",
   });
- 
+
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
@@ -31,7 +28,8 @@ const SignIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/dashboard");
+    localStorage.setItem("is_logged", "1");
+    navigate("/");
   };
 
   return (

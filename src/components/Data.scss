@@ -76,6 +76,7 @@
   margin-top: 10px;
   display: flex !important;
   justify-content: space-between;
+  flex-wrap: wrap !important;
   margin-right: 244px;
   outline: none;
 }
@@ -108,7 +109,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap !important;
     
 .seach{
 margin-right: 244px;
