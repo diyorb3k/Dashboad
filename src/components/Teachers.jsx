@@ -192,7 +192,7 @@ const Teachers = () => {
         <DialogTitle>Edit Teacher</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Please edit the details of the teacher.
+          yangi o'qituvchi haqida ma'lumotlarni qushing.
           </DialogContentText>
           <TextField
             autoFocus
