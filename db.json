@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "de6b",
+      "email": "example@gmail.com",
+      "password": "example"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "firstName": "qdwefdas",
+      "lastName": "Bekmurodov",
+      "group": "dwefvwdefr",
+      "username": "wedwdw",
+      "password": "dwdwdwwddw"
+    },
+    {
+      "id": "2",
+      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
+      "lastName": "Bekmurodov",
+      "group": "n58",
+      "username": "javohir",
+      "password": "bob_brown42"
+    },
+    {
+      "id": "3",
+      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
+      "lastName": "Diyorbek",
+      "group": "zdsfdc",
+      "username": "javohir",
+      "password": "bob_brown42"
+    },
+    {
+      "id": "4",
+      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
+      "lastName": "Bekmurodov",
+      "group": "zdsfdc",
+      "username": "javohir",
+      "password": "bob_brown42"
+    },
+    {
+      "id": "6bef",
+      "firstName": "diyor456",
+      "lastName": "Bekmurodov",
+      "group": "n58",
+      "username": "intro forim",
+      "password": "uyga ishi8"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "cc30",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "0868",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "f716",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11q"
+    },
+    {
+      "id": "0318",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    }
+  ]
+}
