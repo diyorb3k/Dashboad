@@ -17,6 +17,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { MainListItems } from "../../components/ListItems";
+import { Login } from "@mui/icons-material";
+import AccountMenu from "../../components/AccountMenu";
 
 const drawerWidth = 240;
 
@@ -103,11 +105,12 @@ const DashboardLayout = ({ children }) => {
             >
               Dashboard
             </Typography>
-            <IconButton color="inherit">
+            <AccountMenu/>
+            {/* <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
                 <NotificationsIcon />
               </Badge>
-            </IconButton>
+            </IconButton> */}
           </Toolbar>
         </AppBar>
         <Drawer variant="permanent" open={open}>

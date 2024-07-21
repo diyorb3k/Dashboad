@@ -88,7 +88,7 @@ const Data = () => {
   return (
     <div className='APidata'>
       <div className='searchA'>
-      <h1>Student List</h1>
+      <h1>Student </h1>
   
   <TextField className='seach'
     label="Search"

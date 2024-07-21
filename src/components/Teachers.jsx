@@ -134,7 +134,7 @@ const Teachers = () => {
   return (
     <div className="APIdata">
       <div className="searchA">
-        <h1>Teachers Page</h1>
+        <h1>Teachers </h1>
         <TextField className="seach"
           label="Search"
           variant="outlined"

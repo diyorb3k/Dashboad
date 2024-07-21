@@ -7,40 +7,31 @@ import {
   Box,
   Alert,
 } from "@mui/material";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const SignIn = () => {
-  const [credentials, setCredentials] = useState({ username: "", password: "" });
+  let { pathname } = useLocation();
+
+  if (pathname.includes("/dashboard")) {
+    return <></>;
+  }
+  const [credentials, setCredentials] = useState({
+    username: "20880",
+    password: "1533",
+  });
+ 
   const [error, setError] = useState("");
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCredentials({ ...credentials, [name]: value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      const response = await fetch("http://localhost:3000/auth/signin", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(credentials),
-      });
-      if (response.ok) {
-        const data = await response.json();
-        console.log("Successfully signed in:", data);
-        history.push("/home"); // Successfully signed in, redirect to home page
-      } else {
-        const errorData = await response.json();
-        setError(errorData.message || "Sign in failed");
-      }
-    } catch (error) {
-      setError("An error occurred during sign in");
-      console.error("Sign in error:", error);
-    }
+    navigate("/dashboard");
   };
 
   return (
@@ -66,7 +57,6 @@ const SignIn = () => {
             label="Username"
             name="username"
             autoComplete="username"
-            autoFocus
             value={credentials.username}
             onChange={handleChange}
             sx={{ boxShadow: 3 }}

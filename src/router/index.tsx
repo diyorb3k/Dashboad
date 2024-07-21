@@ -11,24 +11,22 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import Data from "../components/Data";
 import Teachers from "../components/Teachers";
 import Profile from "../components/Profile";
-
+import SignIn from "../components/SignIn";
 export const router = createBrowserRouter([
-
-
- 
   {
     path: "/",
     element: (
       <DashboardLayout>
-        <Dashboard />
+        <SignIn />
       </DashboardLayout>
     ),
   },
+ 
   {
     path: "about",
     element: (
       <DashboardLayout>
-        <Data/>
+        <Data />
       </DashboardLayout>
     ),
   },
@@ -37,7 +35,7 @@ export const router = createBrowserRouter([
     path: "students",
     element: (
       <DashboardLayout>
-        <Teachers/>
+        <Teachers />
       </DashboardLayout>
     ),
   },
@@ -45,8 +43,22 @@ export const router = createBrowserRouter([
     path: "Profile",
     element: (
       <DashboardLayout>
-        <Profile/>
+          <SignIn />
       </DashboardLayout>
     ),
   },
+
+  {
+    path: "/dashboard",
+    element: (
+      <DashboardLayout>
+        <Data />
+        </DashboardLayout>
+    ),
+  },
+
+
+
+
+
 ]);
