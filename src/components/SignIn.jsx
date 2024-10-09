@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import  "./Data.scss";
 import {
   Button,
   TextField,
@@ -73,10 +74,11 @@ const SignIn = () => {
             sx={{ boxShadow: 3 }}
           />
           <Button
+          className="btn_sing"
             type="submit"
             fullWidth
             variant="contained"
-            color="primary"
+            color="error"
             sx={{ mt: 3, mb: 2 }}
           >
             Sign In
